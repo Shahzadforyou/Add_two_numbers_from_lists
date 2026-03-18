@@ -15,5 +15,8 @@ list2.reverse()
 
 s1 = Solution()
 result = s1.addTwoNumbers(list1,list2)
-str(result).split()
-print(result)
+temp = str(result)
+req_list =[]
+for i in temp:
+    req_list.append(int(i))
+print(req_list)
