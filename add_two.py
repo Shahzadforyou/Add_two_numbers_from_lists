@@ -6,5 +6,14 @@ class Solution(object):
             self.num1 = (self.num1*10) + i 
         for j in l2:
             self.num2 = (self.num2*10) + j 
-        return l1+l2
+        return self.num1 + self.num2
     
+list1 = [1,2,3]
+list2 = [4,5,6]
+list1.reverse()
+list2.reverse()
+
+s1 = Solution()
+result = s1.addTwoNumbers(list1,list2)
+str(result).split()
+print(result)
